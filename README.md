@@ -1,6 +1,6 @@
 # Stacks
 
-A Stack is a first-in last-out (FILO) data structure. This means that when you retrieve something from the stack, you will get the last thing added. Adding something to the Stack is known as **Pushing**, and removing something from the Stack is known as **Popping**.
+A Stack is a first-in last-out (LIFO/FILO) data structure. This means that when you retrieve something from the stack, you will get the last thing added. Adding something to the Stack is known as **Pushing**, and removing something from the Stack is known as **Popping**.
 
 ## check_it
 
