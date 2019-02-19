@@ -4,9 +4,9 @@ require 'pry'
 def check_it(string)
   stack = Stack.new
   string.chars.each do |char|
-    if open_close[char] != nil
+    if open_close.has_key?(char)
       stack.push(char)
-    elsif open_close.values.include?(char)
+    elsif open_close.has_value?(char)
       open = stack.pop
       if open_close[open] != char
         return false
