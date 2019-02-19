@@ -2,7 +2,7 @@
 
 ## Setup
 
-In this activity, you model a Stack as a stack of index cards.
+In this activity, you will model a Stack as a stack of index cards.
 
 Start by creating 6 index cards with the following characters:
 
