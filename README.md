@@ -4,14 +4,11 @@
 
 In this activity, you will model a Stack as a stack of index cards.
 
-Start by creating 6 index cards with the following characters:
+Start by creating 3 index cards with the following characters:
 
 1. "{"
 1. "["
 1. "("
-1. "}"
-1. "]"
-1. ")"
 
 As the examples get more complex, you will need to create more index cards when you have multiple of the same character.
 
