@@ -1,4 +1,5 @@
 class Stack
+  attr_reader :data
   def initialize
     @data = []
   end
@@ -9,5 +10,17 @@ class Stack
 
   def pop
     @data.pop
+  end
+
+  def search(element)
+    if @data.include?(element)
+      @data.index(element)
+    else
+      nil
+    end
+  end
+
+  def peek
+    @data.last
   end
 end
